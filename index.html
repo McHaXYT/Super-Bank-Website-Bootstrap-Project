@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/img/undraw_savings_re_eq4w(1).svg"
+            type="image/x-icon"
+        />
+        <title>SuperBank</title>
+    </head>
+    <body>
+        <!-- NAVBAR SECTION -->
+        <nav
+            class="navbar navbar-expand-xl bg-body-tertiary py-4 mb-5 fixed-top shadow"
+        >
+            <div class="container">
+                <a class="navbar-brand fw-medium display-1" href="#"
+                    ><i class="fa fa-bank"></i> Superbank</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul
+                        class="navbar-nav ms-auto fw-bold d-flex gap-2 gap-lg-4"
+                    >
+                        <li class="nav-item">
+                            <a class="nav-link" href="#featured-section"
+                                >Features</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#payment-section"
+                                >Payment</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#custom-section"
+                                >Customize</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials-sections"
+                                >Testimonials</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle btn btn-primary bg-dark text-white px-4 py-2"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                🇬🇧 <span>ENG</span>
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li>
+                                    <a class="dropdown-item text-white" href="#"
+                                        >🇮🇳 <span>INR</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-white" href="#"
+                                        >🇬🇧 <span>UK</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-white" href="#"
+                                        >🇵🇰 <span>PK</span></a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HERO SECTION -->
+        <section id="hero-section" class="my-5 pt-5">
+            <div class="container hero-container">
+                <div
+                    class="hero-container_row row d-flex justify-content-between align-items-center"
+                >
+                    <div
+                        class="col-lg-6 col-12 hero-container_row--col text-center text-lg-start order-2 order-lg-1"
+                    >
+                        <h1 class="hero-h display-3 text-dark fw-bold mb-3">
+                            Find the best experience of transaction
+                        </h1>
+                        <p class="text-dark lead hero-p">
+                            We provide you with easiest futuristic features and
+                            provide you the best payment and money managment
+                            experience
+                        </p>
+                        <div
+                            class="btn-container d-flex justify-content-center justify-content-lg-start gap-3 mt-5"
+                        >
+                            <a
+                                href="#"
+                                class="btn btn-primary text-white d-flex justify-content-start align-items-center"
+                            >
+                                <i class="fa fa-apple"></i>
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-start"
+                                >
+                                    <p class="text-white p-0 m-0">
+                                        Available on the
+                                    </p>
+                                    <span class="p-0 m-0">App Store</span>
+                                </div>
+                            </a>
+                            <a
+                                href="#"
+                                class="btn btn-primary text-white d-flex justify-content-start align-items-center"
+                            >
+                                <i class="fa fa-google"></i>
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-start"
+                                >
+                                    <p class="text-white p-0 m-0">On Desktop</p>
+                                    <span class="p-0 m-0">Google Play</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-12 hero-container_row--col2 order-1 order-lg-2 mb-5 mb-lg-0"
+                    >
+                        <img
+                            src="assets/img/undraw_finance_re_gnv2.svg"
+                            alt="Hero-img"
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FEATURED SECTION -->
+        <section id="featured-section" style="margin-top: 150px">
+            <div class="container text-center">
+                <div class="row row1">
+                    <div class="col row1_col">
+                        <p
+                            class="row1_col--p"
+                            style="
+                                letter-spacing: 8px;
+                                color: rgb(202, 168, 81);
+                                font-size: 18px;
+                            "
+                        >
+                            FEATURED
+                        </p>
+                        <h1
+                            class="row1_col--h fw-bold display-4"
+                            style="font-family: Merriweather, serif"
+                        >
+                            Why we're different
+                        </h1>
+                    </div>
+                </div>
+                <div class="row row2 mt-5">
+                    <div
+                        class="row2_col col-12 col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center align-items-center"
+                    >
+                        <div
+                            class="card"
+                            style="width: 18rem; border: none !important"
+                        >
+                            <img
+                                src="assets/img/undraw_credit_card_re_blml.svg"
+                                class="card-img-top img-fluid w-75 mx-auto py-5"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5
+                                    class="card-title fw-medium mb-3"
+                                    style="font-family: poppins, sans-serif"
+                                >
+                                    Customizable Card
+                                </h5>
+                                <p
+                                    class="card-text"
+                                    style="color: #808080 !important"
+                                >
+                                    Fully customizable card that you can edit
+                                    freely. custom your own card based on your
+                                    own taste
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="row2_col col-12 col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center align-items-center"
+                    >
+                        <div
+                            class="card"
+                            style="width: 18rem; border: none !important"
+                        >
+                            <img
+                                src="assets/img/undraw_savings_re_eq4w.svg"
+                                class="card-img-top img-fluid w-75 mx-auto py-5"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5
+                                    class="card-title fw-medium mb-3"
+                                    style="font-family: poppins, sans-serif"
+                                >
+                                    No Payment Fee
+                                </h5>
+                                <p
+                                    class="card-text"
+                                    style="color: #808080 !important"
+                                >
+                                    Transfer and make your payment across the
+                                    world without worrying again about any fee
+                                    in your transaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="row2_col col-12 col-xl-4 col-lg-6 col-md-6 d-flex justify-content-center align-items-center"
+                    >
+                        <div
+                            class="card"
+                            style="width: 18rem; border: none !important"
+                        >
+                            <img
+                                src="assets/img/undraw_bitcoin_re_urgq.svg"
+                                class="card-img-top img-fluid w-75 mx-auto py-5"
+                                alt="..."
+                            />
+                            <div class="card-body">
+                                <h5
+                                    class="card-title fw-medium mb-3"
+                                    style="font-family: poppins, sans-serif"
+                                >
+                                    All in One Place
+                                </h5>
+                                <p
+                                    class="card-text"
+                                    style="color: #808080 !important"
+                                >
+                                    Ready to link any bank or financial
+                                    institution for yoru transaction and money
+                                    managment needs to our Apps.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PAYMENT SECTION -->
+        <section id="payment-section" style="margin-top: 150px">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <img
+                            src="assets/img/undraw_mobile_pay_re_sjb8.svg"
+                            alt="Mobile-Pay"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <h1
+                            class="display-4 fw-bold"
+                            style="font-family: Merriweather, serif"
+                        >
+                            All payment just in one app
+                        </h1>
+                        <p style="color: #808080" class="my-4">
+                            All Kind of payments from many platform such as
+                            Amazon Shop, Shopify Shop, Paypal Income can be
+                            linked to SuperBank for the easiest transaction.
+                        </p>
+                        <ul style="list-style: none" class="m-0 p-0">
+                            <li class="mb-3">
+                                <i
+                                    class="fa fa-check d-inline"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p
+                                    style="color: #808080"
+                                    class="m-0 p-0 d-inline"
+                                >
+                                    Easy to use
+                                </p>
+                            </li>
+                            <li class="mb-3">
+                                <i
+                                    class="fa fa-check d-inline"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p
+                                    style="color: #808080"
+                                    class="m-0 p-0 d-inline"
+                                >
+                                    No payment fee for any platform / financial
+                                    institutions payment
+                                </p>
+                            </li>
+                            <li class="mb-3">
+                                <i
+                                    class="fa fa-check d-inline"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p
+                                    style="color: #808080"
+                                    class="m-0 p-0 d-inline"
+                                >
+                                    Online 24 / 7
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CUSTOM CARD SECTION -->
+        <section id="custom-section" style="margin-top: 150px">
+            <div class="container">
+                <div
+                    class="row gy-5 d-flex justify-content-center align-items-center"
+                >
+                    <div
+                        class="col col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start"
+                    >
+                        <h1
+                            class="display-4 fw-bold"
+                            style="font-family: Merriweather, serif"
+                        >
+                            Custom your own card
+                        </h1>
+                        <p style="color: #808080" class="my-4">
+                            A unique card is what everyone needs, so we fullfill
+                            your wish and make it fully customizable. You can
+                            design your own card based on your taste.
+                        </p>
+                        <ul style="list-style: none" class="m-0 p-0">
+                            <li
+                                class="d-flex justify-content-lg-start justify-content-center align-items-center mb-3"
+                            >
+                                <i
+                                    class="fa fa-check"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p style="color: #808080" class="m-0 p-0">
+                                    Fully Customizable
+                                </p>
+                            </li>
+                            <li
+                                class="d-flex justify-content-lg-start justify-content-center align-items-center mb-3"
+                            >
+                                <i
+                                    class="fa fa-check"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p style="color: #808080" class="m-0 p-0">
+                                    Unlimited Color Option
+                                </p>
+                            </li>
+                            <li
+                                class="d-flex justify-content-lg-start justify-content-center align-items-center mb-3"
+                            >
+                                <i
+                                    class="fa fa-check"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p style="color: #808080" class="m-0 p-0">
+                                    Instant Service
+                                </p>
+                            </li>
+                            <li
+                                class="d-flex justify-content-lg-start justify-content-center align-items-center mb-3"
+                            >
+                                <i
+                                    class="fa fa-check"
+                                    style="
+                                        color: rgb(202, 168, 81);
+                                        margin-right: 10px;
+                                    "
+                                ></i>
+                                <p style="color: #808080" class="m-0 p-0">
+                                    Choose your own card
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col col-12 col-lg-6 d-flex flex-lg-column gap-4 justify-content-center align-items-center align-items-md-end order-1 order-lg-2"
+                    >
+                        <img
+                            src="assets/img/undraw_credit_card_re_blml.svg"
+                            alt="credit-card"
+                            class="img-fluid w-25"
+                        />
+                        <img
+                            src="assets/img/undraw_credit_card_re_blml.svg"
+                            alt="credit-card"
+                            class="img-fluid w-25"
+                        />
+                        <img
+                            src="assets/img/undraw_credit_card_re_blml.svg"
+                            alt="credit-card"
+                            class="img-fluid w-25"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials-sections" style="margin-top: 150px">
+            <div class="container text-center">
+                <div class="row row1 mb-5">
+                    <div class="col row1_col">
+                        <p
+                            class="row1_col--p"
+                            style="
+                                letter-spacing: 8px;
+                                color: rgb(202, 168, 81);
+                                font-size: 18px;
+                            "
+                        >
+                            TESTIMONIALS
+                        </p>
+                        <h1
+                            class="row1_col--h fw-bold display-4"
+                            style="font-family: Merriweather, serif"
+                        >
+                            What costumers say about us
+                        </h1>
+                    </div>
+                </div>
+                <div class="row gy-5">
+                    <div
+                        class="col col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+                    >
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="assets/img/undraw_male_avatar_g98d.svg"
+                                class="card-img-top img-fluid w-25 mx-auto py-4"
+                                alt="..."
+                            />
+                            <div class="card-body pb-1">
+                                <h5
+                                    class="card-title fw-semibold mb-3"
+                                    style="font-family: Merriweather, serif"
+                                >
+                                    Robert Downey Jr.
+                                </h5>
+                                <p
+                                    class="card-text mb-5"
+                                    style="color: #808080"
+                                >
+                                    The frist one I found in market that gives
+                                    me a real experience of having an easy
+                                    payment process
+                                </p>
+                                <div class="card-footer">
+                                    <a
+                                        href="#"
+                                        class="list-group-item"
+                                        style="
+                                            color: rgb(202, 168, 81);
+                                            font-size: 18px;
+                                            text-decoration: none;
+                                        "
+                                        >Read more</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+                    >
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="assets/img/undraw_female_avatar_efig.svg"
+                                class="card-img-top img-fluid w-25 mx-auto py-4"
+                                alt="..."
+                            />
+                            <div class="card-body pb-1">
+                                <h5
+                                    class="card-title fw-semibold mb-3"
+                                    style="font-family: Merriweather, serif"
+                                >
+                                    Caroline Martatilar
+                                </h5>
+                                <p
+                                    class="card-text mb-5"
+                                    style="color: #808080"
+                                >
+                                    Making my own card and choosing my own
+                                    number is a whole new experience for me, i
+                                    can customize anything on my card based on
+                                    my taste
+                                </p>
+                                <div class="card-footer">
+                                    <a
+                                        href="#"
+                                        class="list-group-item"
+                                        style="
+                                            color: rgb(202, 168, 81);
+                                            font-size: 18px;
+                                            text-decoration: none;
+                                        "
+                                        >Read more</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+                    >
+                        <div class="card" style="width: 18rem">
+                            <img
+                                src="assets/img/undraw_pic_profile_re_7g2h.svg"
+                                class="card-img-top img-fluid w-25 mx-auto py-4"
+                                alt="..."
+                            />
+                            <div class="card-body pb-1">
+                                <h5
+                                    class="card-title fw-semibold mb-3"
+                                    style="font-family: Merriweather, serif"
+                                >
+                                    Marshall D. Teach
+                                </h5>
+                                <p
+                                    class="card-text mb-5"
+                                    style="color: #808080"
+                                >
+                                    I dont expect it will be this easy to do
+                                    transaction even on between different
+                                    platforms
+                                </p>
+                                <div class="card-footer">
+                                    <a
+                                        href="#"
+                                        class="list-group-item"
+                                        style="
+                                            color: rgb(202, 168, 81);
+                                            font-size: 18px;
+                                            text-decoration: none;
+                                        "
+                                        >Read more</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- COMMENTS SECTION -->
+        <section
+            id="comment-section"
+            style="margin-top: 150px; background-color: #181818"
+            class="py-5"
+        >
+            <div class="container text-white">
+                <div
+                    class="row gy-5 pt-3 d-flex align-items-center justify-content-between"
+                >
+                    <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+                        <img
+                            src="assets/img//undraw_android_jr64.svg"
+                            alt="Mobile-Pay"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <div class="col-12 col-lg-5 text-center text-lg-start">
+                        <div class="star-container pb-3">
+                            <i
+                                class="fa fa-star"
+                                style="color: rgb(202, 168, 81)"
+                            ></i>
+                            <i
+                                class="fa fa-star"
+                                style="color: rgb(202, 168, 81)"
+                            ></i>
+                            <i
+                                class="fa fa-star"
+                                style="color: rgb(202, 168, 81)"
+                            ></i>
+                            <i
+                                class="fa fa-star"
+                                style="color: rgb(202, 168, 81)"
+                            ></i>
+                            <i
+                                class="fa fa-star"
+                                style="color: rgb(202, 168, 81)"
+                            ></i>
+                        </div>
+                        <h1
+                            class="display-3 fw-bold"
+                            style="font-family: Merriweather, serif"
+                        >
+                            1000+ Positive Comments
+                        </h1>
+                        <p class="my-4 text-white-50">
+                            Superbank is a finance apps to fulfill your daily
+                            needs of transaction and money managment
+                        </p>
+                        <div
+                            class="btn-container d-flex justify-content-center justify-content-lg-start gap-3 mt-5"
+                        >
+                            <a
+                                href="#"
+                                class="btn btn-google btn-primary text-white d-flex justify-content-start align-items-center"
+                            >
+                                <i class="fa fa-apple"></i>
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-start"
+                                >
+                                    <p class="text-white p-0 m-0">
+                                        Available on the
+                                    </p>
+                                    <span class="p-0 m-0">App Store</span>
+                                </div>
+                            </a>
+                            <a
+                                href="#"
+                                class="btn btn-google btn-primary text-white d-flex justify-content-start align-items-center"
+                            >
+                                <i class="fa fa-google"></i>
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-start"
+                                >
+                                    <p class="text-white p-0 m-0">On Desktop</p>
+                                    <span class="p-0 m-0">Google Play</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER SECTION -->
+        <section
+            class="footer-section pt-5"
+            id="footer"
+            style="margin-top: 180px"
+        >
+            <div class="container text-dark">
+                <footer class="pt-5">
+                    <div class="row gy-5">
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h5 class="mb-4">About Us</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >FAQs</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >About</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h5 class="mb-4">Read More</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >FAQs</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >About</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <h5 class="mb-4">Contact Us</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >Pricing</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >FAQs</a
+                                    >
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a
+                                        href="#"
+                                        class="nav-link p-0"
+                                        style="color: #808080"
+                                        >About</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 offset-lg-2">
+                            <form>
+                                <h5>Subscribe to our newsletter</h5>
+                                <p>
+                                    Monthly digest of whats new and exciting
+                                    from us.
+                                </p>
+                                <div class="d-flex w-100 gap-2">
+                                    <label
+                                        for="newsletter1"
+                                        class="visually-hidden"
+                                        >Email address</label
+                                    >
+                                    <input
+                                        id="newsletter1"
+                                        type="text"
+                                        class="form-control border-1 border-dark-subtle py-2"
+                                        placeholder="Email address"
+                                    />
+                                    <button
+                                        class="btn btn-primary btn-dark"
+                                        type="button"
+                                    >
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top border-dark-subtle text-sm-start text-center"
+                    >
+                        <p class="mb-4 mb-sm-0">
+                            © 2023 Company, Inc. All rights reserved.
+                        </p>
+                        <ul class="list-unstyled d-flex justify-content-center">
+                            <li class="ms-3">
+                                <a
+                                    class="text-white btn-primary btn-dark rounded-pill btn"
+                                    href="#"
+                                >
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a
+                                    class="text-white btn-primary btn-dark rounded-pill btn"
+                                    href="#"
+                                >
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a
+                                    class="text-white btn-primary btn-dark rounded-pill btn"
+                                    href="#"
+                                >
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <!-- BACK TO TOP BTN -->
+        <a
+            href="#"
+            class="shadow btn-primary rounded-circle back-to-top bg-dark shadow"
+        >
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <script
+            src="https://kit.fontawesome.com/22f6533c22.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="assets/js/bootstrap.bundle.js"></script>
+    </body>
+</html>

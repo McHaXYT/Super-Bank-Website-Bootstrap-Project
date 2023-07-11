@@ -1,0 +1,23 @@
+{
+    "name": "boostrap-dribbler-project",
+    "version": "1.0.0",
+    "description": "Boostrap Website Super Bank",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch scss:assets/css"
+    },
+    "keywords": [
+        "Boostrap",
+        "Website",
+        "Super",
+        "Bank"
+    ],
+    "author": "Hasnain Liaquat",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.4.14",
+        "bootstrap": "^5.3.0",
+        "postcss-cli": "^10.1.0",
+        "sass": "^1.63.6"
+    }
+}
